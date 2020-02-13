@@ -81,6 +81,8 @@ Keyframes for animation*/
 }
 
 .card {
+
+  flex-basis: 400px;
   
   margin: 12px;
   background: #fff;
@@ -136,7 +138,7 @@ Keyframes for animation*/
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .gallery > img{
@@ -213,8 +215,6 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
-    
   }
 
   .nav_links{
@@ -223,7 +223,6 @@ header{
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    
   }
 
   .nav_item a{
