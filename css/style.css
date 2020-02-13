@@ -186,9 +186,14 @@ header{
 
 @media screen and (min-width: 850px){
 
+  .pricing{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
   /* Cards! */
   .card {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
